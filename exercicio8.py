@@ -1,8 +1,10 @@
 import math
 
-raio = float(input("Informe o valor do raio da esfera:  "))
+pi = 3.14159
 
-volume = 4/3 * math.pi * math.pow(float(raio),3)
+R = float(input())
+
+volume = 4.0/3 * math.pi * math.pow(float(R),3)
 
 
-print "O volume da esfera e = ", (volume)
+print ("VOLUME = %.3f" % volume)
